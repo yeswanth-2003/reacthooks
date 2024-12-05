@@ -7,7 +7,7 @@ import Count from './components/usememo';
 import Context from './components/usecontext';
 import Ref from './components/useref';
 import Dispatch from './components/usedispatch';
-import ProductDetail from './components/sindleproduct';
+import ProductDetail from './components/singleproduct';
 import { Provider } from 'react-redux';
 import count from './components/redux';
 import { BrowserRouter, Routes, Route, Router, useLocation } from 'react-router-dom';
@@ -15,7 +15,7 @@ import { BrowserRouter, Routes, Route, Router, useLocation } from 'react-router-
 function App() {
   return (
 // USESTATE
-      // <Form/>
+      <Form/>
 
 // USEEFFECT
     // <Time/>
@@ -46,15 +46,15 @@ function App() {
 
 
 // USENAVIGATE
-    <BrowserRouter>
+    // <BrowserRouter>
 
-    <Routes>
+    // <Routes>
 
-    <Route path="/" element={<Page1 />} />
-    <Route path="/page2" element={<Page2 />} />
+    // <Route path="/" element={<Page1 />} />
+    // <Route path="/page2" element={<Page2 />} />
 
-    </Routes>
-    </BrowserRouter>
+    // </Routes>
+    // </BrowserRouter>
 
 
   );
