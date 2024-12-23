@@ -11,14 +11,18 @@ useMemo(()=>{
 function increment(){
     setcount(count+1)
 }
+function decrement(){
+    setcount(count-1)
+}
 
 console.log('component rendered')
 
 return(
 
     <div >
-        <h1>COUNT : {count}</h1>
+        <h1>{count}</h1>
         <button onClick={increment}>Increase</button>
+        <button onClick={decrement}>Increase</button>
     </div>
 )
 }

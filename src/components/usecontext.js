@@ -18,7 +18,7 @@ return(
           <h2>{item.Product}</h2>
           <p>{item.Make}</p>
           <p>{item.Year}</p>
-          <Link to={`/product/${item.Product}`} state={item}> <button> SEE ITEM</button></Link>
+          {/* <Link to={`/product/${item.Product}`} state={item}> <button> SEE ITEM</button></Link> */}
         </div>
       ))}
     </div>
